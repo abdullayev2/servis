@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding:0;
+    color: black;
+    background-color: blue;
+}
+
+button{
+    padding: 10px;
+    background-color: white;
+    margin: 5px;
+}
+a{
+    background-color: white;
+}
+
+.tasq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    animation: zafar 30s;
+    border: 3px solid chocolate;
+    box-shadow: 0px 0px 110px rgb(255, 0, 0);
+}
+
+
+
+@keyframes zafar{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.man{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
